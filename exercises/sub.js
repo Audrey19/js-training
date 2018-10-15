@@ -7,6 +7,11 @@
  */
 
 // Your code :
+function sub(number1, number2){
+  let result = 0;
+  result = number1 - number2;
+  return result;
+}
 
 //* Begin of tests
 const assert = require('assert')
